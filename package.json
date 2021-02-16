@@ -1,0 +1,38 @@
+{
+  "name": "demovirtualttrips",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development && nodemon index.js"
+  },
+  "author": "maxmclarentaylor",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "consolidate": "^0.16.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "pug": "^3.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sqlite3": "^5.0.1",
+    "swig": "^1.4.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/node": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.1.0",
+    "webpack": "^5.22.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-node-externals": "^2.5.2"
+  }
+}
